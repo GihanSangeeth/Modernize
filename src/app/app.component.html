@@ -1,0 +1,22 @@
+<div class="main-form ">
+<div class="container p-4">
+    <form >
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label" >Email address</label>
+          <input [(ngModel)]="email" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+        </div>
+        <span [ngClass]="isEmailErr? 'err':'hide'">Please provide valid email</span>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Subject</label>
+          <input [(ngModel)]="subject" type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+      
+          <label class="form-label" for="exampleCheck1">Message</label>
+          <textarea [(ngModel)]="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="formSubmit()">Submit</button>
+    </form>
+    <div>kjghd</div>
+</div>
+</div>

@@ -1,0 +1,29 @@
+@import "../../../assets/styles/font-variables.scss";
+@import "../../../assets/styles/styles.scss";
+
+.main-header {
+  box-shadow: 0px 1px 3px #15223214;
+  position: relative;
+  z-index: 1;
+}
+.icons {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.count {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #1e5eff;
+  color: #fff;
+  font-family: $font-primary;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  position: absolute;
+  top: -3px;
+  right: -28px;
+}

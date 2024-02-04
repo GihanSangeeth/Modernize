@@ -1,0 +1,23 @@
+@import "../../../assets/styles/font-variables.scss";
+@import "../../../assets/styles/styles.scss";
+
+.side-menu-container {
+  height: 100%;
+  box-shadow: 1px 0px 1px #d7dbec;
+  position: relative;
+  background-color: #f5f6fa;
+}
+.active {
+  color: #fff !important;
+}
+.rounded-pill {
+  background-color: #000;
+  font-family: $font-primary;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  margin-left: 50%;
+}

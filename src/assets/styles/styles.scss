@@ -1,0 +1,56 @@
+.text-heading-l {
+  font-family: $font-primary;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #131523;
+}
+.text-heading-m {
+  font-family: $font-primary;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #131523;
+}
+.text-m {
+  font-family: $font-primary;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #5a607f !important;
+}
+.text-s {
+  font-family: $font-primary;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #a1a7c4 !important;
+}
+.btn-outline-secondary {
+  font-family: $font-primary;
+  border: 1px solid #d7dbec;
+  color: #1e5eff;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding: 8px 25px;
+}
+.btn-primary {
+  font-family: $font-primary;
+  border: 1px solid #1e5eff;
+  color: #ffffff;
+  background-color: #1e5eff;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding: 8px 25px;
+}
+
+.divider {
+  color: #d7dbec;
+  opacity: 1;
+}

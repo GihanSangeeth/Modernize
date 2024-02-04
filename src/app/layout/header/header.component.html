@@ -1,0 +1,69 @@
+<div class="container-fluid px-4 main-header">
+  <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3"
+  >
+    <a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0">
+      <img src="assets/images/logo.png" alt="logo" />
+    </a>
+
+    <ul class="nav col-12 col-md-6 mb-2 mb-md-0">
+      <div class="d-flex">
+        <span class="m-auto">
+          <img src="assets/images/icon-search.png" alt="search" />
+        </span>
+        <input
+          class="form-control mr-sm-2 border-0"
+          type="search"
+          placeholder="Search..."
+          aria-label="Search"
+        />
+      </div>
+    </ul>
+
+    <div class="col-md-auto text-end">
+      <div class="d-flex align-items-center">
+        <div class="icons">
+          <img src="assets/images/icon-message.png" alt="message" />
+        </div>
+        <div class="icons me-4">
+          <img
+            src="assets/images/icon-notification.png"
+            alt="message"
+            class="ms-4"
+          />
+          <div class="count">{{ notificationCount }}</div>
+        </div>
+
+        <div class="dropdown ms-5">
+          <a
+            href="#"
+            class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+            id="dropdownUser2"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="assets/images/avatar.png"
+              alt=""
+              width="36"
+              height="36"
+              class="rounded-circle me-2"
+            />
+            <span class="text-m">Monica Simons</span>
+          </a>
+          <ul
+            class="dropdown-menu text-small shadow"
+            aria-labelledby="dropdownUser2"
+          >
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>

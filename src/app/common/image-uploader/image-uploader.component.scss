@@ -1,0 +1,17 @@
+@import "../../../assets/styles/font-variables.scss";
+@import "../../../assets/styles/styles.scss";
+
+.image-uploader{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px dashed gray;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    // width: 100%;
+    height: 150px;
+    position: absolute;
+    opacity: 0;
+}

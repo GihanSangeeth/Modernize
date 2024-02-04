@@ -1,0 +1,144 @@
+<div class="container-fluid settings-container p-4 m-0">
+  <div class="row">
+    <div class="col-6">
+      <h2 class="text-heading-l">Settings</h2>
+    </div>
+    <div class="col-6">
+      <div class="btns float-end">
+        <button type="button" class="btn btn-outline-secondary me-2">
+          Cancel
+        </button>
+        <button type="submit" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 mb-2 p-4 bg-white rounded-2">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a
+          class="nav-link active border-0 px-0 me-4"
+          data-bs-toggle="tab"
+          href="#home"
+          >Profile</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link border-0 px-0 me-4"
+          data-bs-toggle="tab"
+          href="#menu1"
+          >Notification</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link border-0 px-0 me-4"
+          data-bs-toggle="tab"
+          href="#menu2"
+          >Account</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link border-0 px-0" data-bs-toggle="tab" href="#menu3"
+          >Security</a
+        >
+      </li>
+    </ul>
+    <div class="tab-content pt-4">
+      <div id="home" class="container tab-pane active px-0">
+        <div>
+          <h5 class="text-heading-m">Profile Details</h5>
+          <p class="text-m">Enter your profile information</p>
+
+          <div class="row pt-2">
+            <div class="mb-3 col-12">
+              <label for="firstName" class="form-label text-m"
+                >Profile Image</label
+              >
+              <app-image-uploader></app-image-uploader>
+            </div>
+            <div class="mb-3 col-6">
+              <label for="firstName" class="form-label text-m"
+                >First Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                aria-describedby="nameHelp"
+              />
+            </div>
+            <div class="mb-3 col-6">
+              <label for="lastName" class="form-label text-m">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                aria-describedby="nameHelp"
+              />
+            </div>
+            <div class="mb-3 col-6">
+              <label for="email" class="form-label text-m">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3 col-6">
+              <label for="mobile" class="form-label text-m">Phone Number</label>
+              <input
+                type="text"
+                class="form-control"
+                id="mobile"
+                aria-describedby="mobileHelp"
+              />
+            </div>
+            <div class="col-12">
+              <hr class="divider px-5" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <h5 class="text-heading-m">Regional Settings</h5>
+          <p class="text-m">Set your language and timezone</p>
+          <div class="row">
+            <div class="mb-3 col-6">
+              <label for="language" class="form-label text-m">Language</label>
+              <select class="form-select" aria-label="language select">
+                <option value="1">English</option>
+                <option value="2">Spanish</option>
+                <option value="3">Sinhala</option>
+              </select>
+            </div>
+
+            <div class="mb-3 col-6">
+              <label for="timeZone" class="form-label text-m">Time Zone</label>
+              <select class="form-select" aria-label="Time Zone select">
+                <option value="1">GMT +02:00</option>
+                <option value="2">GMT +03:00</option>
+                <option value="3">GMT +04:00</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menu1" class="container tab-pane fade">
+        <h3>tab 2</h3>
+      </div>
+      <div id="menu2" class="container tab-pane fade">
+        <h3>tab 3</h3>
+      </div>
+      <div id="menu3" class="container tab-pane fade">
+        <h3>tab 4</h3>
+      </div>
+    </div>
+  </div>
+  <hr class="divider my-4" />
+  <div class="btns float-end mb-5">
+    <button type="button" class="btn btn-outline-secondary me-2">Cancel</button>
+    <button type="submit" class="btn btn-primary">Save</button>
+  </div>
+</div>
